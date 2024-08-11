@@ -1,0 +1,33 @@
+# If you are using PyCharm/Intellij
+.idea/
+
+# File-based project format
+*.iws
+*.iml
+
+# IntelliJ
+out/
+
+# Python #
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+*.http
+drafts/

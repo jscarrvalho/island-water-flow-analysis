@@ -1,0 +1,134 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.centered-div {
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 24px); /* Adjust width to fit container */
+  padding: 8px; /* Adjust padding to make it more compact */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Adjust font size to make input fit better */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #969696;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b4b4b;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  text-align: center;
+  background-color: #f9f9f9; /* Light gray background for cells */
+}
+
+td {
+  cursor: pointer; /* Indicate that cells are interactive */
+  position: relative; /* Ensure that input fields are positioned correctly within cells */
+}
+
+input {
+  width: 90%; /* Make input smaller to fit within cells */
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 4px;
+  font-size: 14px; /* Adjust font size for better fit */
+  background-color: #fff; /* White background for input */
+}
+
+td {
+  cursor: pointer; /* Indicate that cells are interactive */
+  position: relative; /* Ensure that input fields are positioned correctly within cells */
+}
+
+input.table-cell {
+  width: 50px;
+}
+
+.nw_se-flow {
+  background-color: #3892fc; /* Blue for ne_sw path cells */
+}
+
+.se_nw-flow {
+  background-color: #1fa275; /* Green for sw_ne path cells */
+}
+
+.both-flow {
+  background-color: #0042e1; /* Dark blue for both paths cells */
+}
+
+.editable {
+  background-color: #e0f7fa; /* Light cyan for editable cells */
+  border: 1px solid #007bff; /* Blue border for editable cells */
+}
+
+.card {
+  background-color: #d5d5d5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.legend {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 4px;
+}

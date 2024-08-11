@@ -1,0 +1,9 @@
+{
+  "short_name": "Flow Analysis",
+  "name": "Island Water Flow Analysis",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
